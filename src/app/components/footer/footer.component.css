@@ -1,0 +1,24 @@
+.social-icon .nav .nav-link {
+    width: 35px;
+    height: 35px;
+    line-height: 19px;
+    margin: 0px 5px;
+    color: #ababab;
+    background: #282828;
+    transition: all 0.5s;
+    position: relative;
+}
+.social-icon .nav .nav-link:hover {
+    color: #fff;
+    background: var(--purpel);
+}
+.social-icon .nav .nav-link i{
+    position: relative;
+    left: -4px;
+}
+.contact-icon{
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    border-radius: 5px;
+}

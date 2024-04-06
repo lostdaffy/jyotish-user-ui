@@ -1,0 +1,42 @@
+.hand-position {
+    top: 14%;
+    left: 10%;
+}
+.hand-position img{
+    width: 84%;
+}
+.hand-bg1{
+    width: 85%;
+}
+.hand_bg{
+    animation-name: spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.carousel-caption {
+    top: 0;
+    bottom:unset;
+}
+
+.banner-footer {
+    position: relative;
+    top: -55px;
+}
+.about{
+    background-image: url(../../../assets/images/bg3.jpg);
+    background-size: contain;
+}
+.Horoscope{
+    background-image: url(../../../assets/images/bg4.jpg);
+    background-size: cover;
+}
+

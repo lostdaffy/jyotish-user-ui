@@ -1,0 +1,32 @@
+/* ye bhi pade */
+
+.all_lekh {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+}
+
+.lekh-image .lekh_individual {
+    margin-bottom: 15px;
+    height: 122px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lekh_individual img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.lekh-text .lekh_individual span {
+    display: block;
+    padding-bottom: 6px;
+    color: #a5a5a5;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.lekh_individual p a {
+    color: #000;
+    text-decoration: none;
+}

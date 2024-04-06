@@ -1,0 +1,12 @@
+.h-100vh{
+    height: 100vh;
+}
+.login-bg{
+    background: #17031d;
+    background-image: url(../../../assets/images/bg5.png);
+    background-size: cover;
+}
+
+.info p{
+    text-align: justify;
+}

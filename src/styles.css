@@ -1,0 +1,112 @@
+:root {
+    --white: #fff;
+    --text: #777;
+    --dark:#151515;
+    --warning:#ff9d00;
+    --pink1: #90169d;
+    --purpel:#6e2182;
+    --black1: #454545;
+    --red: #FF0000;
+    --gray: #555555;
+    --primarycolor: #e92030;
+    /* testing */
+    --main-color: #6dd5ed;
+    --secondary-color: #2193b0;
+    --gradient: linear-gradient( 135deg, var(--main-color), var(--secondary-color));
+}
+
+a {
+    text-decoration: none;
+}
+.bg-dark{
+    background: var(--dark)!important;
+}
+.bg-purpel{
+    background: var(--purpel);
+}
+.text-purpel{
+    color: var(--purpel);
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Philosopher', sans-serif!important;
+}
+.font-family-Philosopher{
+    font-family: 'Philosopher', sans-serif!important;
+    letter-spacing: 1px;
+}
+.heading span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background: #75429c;
+    display: inline-block;
+    position: relative;
+}
+.heading span:before {
+    content: '';
+    border: 1px solid #d8d8d8;
+    width: 20px;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+}
+.heading span:after {
+    content: '';
+    border: 1px solid #d8d8d8;
+    width: 20px;
+    position: absolute;
+    left: 8px;
+    top: 3px;
+}
+
+/* services */
+.service-image img{
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+    background: #6e2182;
+    border-radius: 70%;
+}
+.inner-banner{
+    background-image: url(./assets/images/bg-innerpage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-image img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 8px 15px 8px 15px;
+    margin-left: -10px;
+    width: 100%;
+}
+.info .animate-charcter, .animation-text {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.breadcrumb-item.active {
+    color: #bbbbbb;
+}

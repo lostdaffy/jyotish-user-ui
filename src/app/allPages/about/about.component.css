@@ -1,0 +1,27 @@
+.about-img {
+    position: relative;
+    z-index: 1;
+    padding: 0 0 40px;
+    text-align: right;
+}
+.about-img::after {
+    position: absolute;
+    content: '';
+    top: 95px;
+    right: 84px;
+    background-color: var(--dark);
+    width: 398px;
+    height: 230px;
+    z-index: -1;
+    opacity: .2;
+}
+.about-img::before {
+    position: absolute;
+    content: '';
+    left: -32px;
+    bottom: 10px;
+    border-left: 2px solid #ff9d00;
+    border-bottom: 2px solid #ff9d00;
+    width: 90px;
+    height: 87px;
+}

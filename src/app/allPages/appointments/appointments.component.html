@@ -1,0 +1,140 @@
+<section class="inner-banner py-5">
+    <div class="container">
+        <h1 class="fs-3 fw-bold text-white">Appointment</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-purpel">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Appointment Form</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-8 m-auto heading text-center">
+                <h3 class="fs-3 fw-bold">
+                    Appointment Form
+                </h3>
+                <span>&nbsp;</span>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-lg-9 p-4 m-auto card shadow">
+                <form class="pt-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Name</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-6">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Email</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-6">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Mobile No.</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-6">
+                            <mat-label class="mb-2">Gender</mat-label>
+                            <br>
+                            <mat-radio-group aria-label="Select an option">
+                                <mat-radio-button value="1" class="me-4">Male</mat-radio-button>
+                                <mat-radio-button value="2">Female</mat-radio-button>
+                            </mat-radio-group>
+                        </div>
+                        <div class="col-6">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Time Of Day</mat-label>
+                                <select matNativeControl required>
+                                <option value="volvo">Morning</option>
+                                <option value="saab">Afternoon</option>
+                                <option value="mercedes">Evening</option>
+                                </select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-6">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Way To Reach</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <h3 class="fw-bold">Preferred Date</h3>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Date</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Month</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Year</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="fw-bold">Preferred Time</h3>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Hrs</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Mins</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field appearance="outline" class="w-100">
+                                <mat-label>Sec</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <mat-form-field class="example-full-width w-100" appearance="outline">
+                                <mat-label>Address</mat-label>
+                                <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+                              </mat-form-field>
+                        </div>
+                        <div class="col-md-6">
+                            <mat-form-field class="example-full-width w-100" appearance="outline">
+                                <mat-label>Reason For Appointment</mat-label>
+                                <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+                              </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="w-100 text-center py-3">
+                        <button class="btn btn-sm bg-purpel rounded-pill text-white">
+                            <i class="fas fa-calendar-check"></i>
+                                Make An Appointment
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</section>

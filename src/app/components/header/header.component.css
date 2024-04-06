@@ -1,0 +1,13 @@
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #ccc;
+}
+.icons-width{
+    border: 1px solid #ccc;
+    padding: 7px 12px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--purpel);
+}

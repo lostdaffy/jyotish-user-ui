@@ -1,0 +1,141 @@
+<header class="w-100 sticky-top bg-white">
+    <div class="container bg-white py-3">
+        <div class="row">
+            <div class="col-4 col-md-3">
+                <a routerLink="/"><img src="/assets/images/logo1.png" alt="myjyotish"></a>
+            </div>
+            <div class="col-5 col-md-5 d-none d-md-block">
+                <div class="social justify-content-center d-flex">
+                    <div class="d-flex pe-4">
+                        <div class="icons-width align-self-center text-purpel">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p class="mb-0 align-self-center text-start fw-500 ps-3">
+                            <span class="text-dark d-block">Send To Email</span>
+                            <span class="text-secondary"> info@gmail.com </span> 
+                        </p>
+                    </div>
+                    <div class="d-flex pe-4">
+                        <div class="icons-width align-self-center text-purpel">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p class="mb-0 align-self-center text-start fw-500 ps-3">
+                            <span class="text-dark d-block">Talk to Astrologers</span>
+                            <span class="text-secondary">999 9999 999 </span> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-4 align-self-center">
+                <div class="social justify-content-end d-flex">
+                    <div class="">
+                        <button class="btn bg-purpel btn-sm text-white rounded-pill px-3" routerLink="/appointments">
+                            <span><i class="fas fa-calendar-check"></i></span>
+                            <span> Appointments</span>
+                        </button>
+                    </div>
+                    <div class="dropdown ps-2">
+                        <a class="btn bg-purpel btn-sm text-white rounded-pill px-3 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span><i class="fa fa-user"></i></span>
+                            Login
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" routerLink="/login">Login</a></li>
+                          <li><a class="dropdown-item" routerLink="/register">Register</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand bg-purpel py-1">
+        <div class="container">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/contact">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-facebook wp-icon"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-twitter wp-icon"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-youtube wp-icon"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-whatsapp wp-icon"></i></a>
+                    </li>
+                </ul>
+
+        </div>
+    </nav>
+</header>
+
+
+<!-- sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 300px;">
+    <div class="offcanvas-header sidebar-header">
+        <a href="/" class="ms-4"><img src="/assets/images/logo.png" alt="myjyotish"></a>
+        <a class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="	far fa-arrow-alt-circle-left fa-2x"></i></a>
+    </div>
+    <div class="offcanvas-body">
+        <ul data-bs-dismiss="offcanvas" aria-label="Close">
+            <li>
+                <a routerLink="/">ज्योतिषी से बात करें</a>
+            </li>
+            <li>
+                <a routerLink="/puja">पूजा</a>
+            </li>
+            <li>
+                <a routerLink="2022">आपका 2022</a>
+            </li>
+            <li>
+                <a routerLink="janam-kundli">कुंडली</a>
+            </li>
+            <li>
+                <a routerLink="/">ब्लॉग्स</a>
+            </li>
+            <li>
+                <a routerLink="video-conference-call">वीडियो कॉल</a>
+            </li>
+            <li>
+                <a routerLink="/">ज्योतिष सेवाएं</a>
+            </li>
+            <li>
+                <a routerLink="live-aarti">लाइव आरती</a>
+            </li>
+            <li>
+                <a routerLink="astro-talk">ऐस्ट्रो टॉक</a>
+            </li>
+            <li>
+                <a routerLink="horoscope">राशिफल</a>
+            </li>
+            <li>
+                <a routerLink="/">टैरो</a>
+            </li>
+            <li>
+                <a routerLink="/">अंक शास्त्र</a>
+            </li>
+            <li>
+                <a routerLink="/">एस्ट्रोलॉजी ब्लॉग्स</a>
+            </li>
+        </ul>
+    </div>
+</div>

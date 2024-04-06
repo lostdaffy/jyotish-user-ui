@@ -1,0 +1,43 @@
+<section class="inner-banner py-5">
+    <div class="container">
+        <h1 class="fs-3 fw-bold text-white">Blog</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-purpel">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Our Latest Blog</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container p-4 py-lg-5">
+        <div class="row">
+            <div class="col-lg-8 m-auto heading text-center">
+                <h3 class="fs-3 fw-bold">
+                 Astrology Blogs
+                </h3>
+                <span>&nbsp;</span>
+            </div>
+        </div>
+
+        <div class="row pt-4">
+            <div class="col-md-4 col-lg-4 mb-4 text-center"  *ngFor="let slide of slides">
+                <div class="card shadow-sm">
+                    <div class="card-image ">
+                        <img [src]="slide.img" class="shadow w-100">
+                    </div>
+                    <div class="content-blog p-3">
+                        <a class=" text-start text-dark">
+                            <h4 class="fs-5 fw-bold">Lorem ipsum dolor sit amet.</h4>
+                        </a>
+                        <div class="d-flex justify-content-between">
+                            <div class="align-self-center"><i class="far fa-clock"></i> Out 27, 2019</div>
+                            <a class="btn bg-purpel btn-sm rounded-pill text-white px-4" routerLink="/blog-details"> Read <i class="far fa-arrow-alt-circle-right"></i></a>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
